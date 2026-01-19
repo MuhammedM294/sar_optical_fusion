@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "disable_existing_loggers": false,
+  "formatters": {
+    "default": {
+      "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    },
+    "simple": {
+      "format": "%(levelname)s - %(message)s",
+      "datefmt": "%Y-%m-%dT%H:%M:%S%z"
+    },
+
+    "verbose": {
+      "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(pathname)s - %(lineno)s",
+      "datefmt": "%Y-%m-%dT%H:%M:%S%z"
+    },
+    "detailed": {
+      "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(pathname)s - %(lineno)s - %(funcName)s",
+      "datefmt": "%Y-%m-%dT%H:%M:%S%z"
+    },
+    "custom": {
+      "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s ",
+      "datefmt": "%Y-%m-%dT%H:%M:%S%z"
+    }
+  },
+  "handlers": {
+    "stdout": {
+      "class": "logging.StreamHandler",
+      "level": "WARNING",
+      "formatter": "custom",
+      "stream": "ext://sys.stdout"
+    },
+    "stderr": {
+      "class": "logging.StreamHandler",
+      "level": "ERROR",
+      "formatter": "custom",
+      "stream": "ext://sys.stderr"
+    },
+    "file": {
+      "class": "logging.FileHandler",
+      "level": "INFO",
+      "formatter": "custom",
+      "filename": "/eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/logs/logger.log"
+    }
+  },
+  "loggers": {
+    "root": {
+      "level": "DEBUG",
+      "handlers": ["file", "stdout"]
+    }
+  }
+}
