@@ -6,6 +6,7 @@ This repository contains the source code for the paper:
 > **Authors:** Davide Festa, Muhammed Hassaan, Wolfgang Wagner  
 > *Manuscript under review* 
 
+![](figures/graph_abstract.jpg)
 ## Repository Status: Work in Progress
 This repository is currently under active development.
 
@@ -43,4 +44,5 @@ All experiments reported in the paper can be reproduced using the provided code 
 ## Contact
 
 For questions regarding the code or methodology, please open an issue or contact the authors.
+
 
