@@ -78,6 +78,11 @@ The resulting mean and standard deviation arrays are provided in:
       └── s2_std.npy
 These files are automatically loaded during training and inference.
 
+## Pretrained Models
+
+The pretrained model checkpoints used in the experiments are not publicly released at this stage, as the manuscript is currently under review.
+
+Researchers interested in reproducing the results or evaluating the models are encouraged to contact the authors directly. Access to the pretrained weights can be provided upon reasonable request.
 
 ## Reproducibility and Scope
 
@@ -110,6 +115,7 @@ If you use this repository, please cite the paper:
 ## Contact
 
 For questions regarding the code or methodology, please open an issue or contact the authors.
+
 
 
 
