@@ -26,6 +26,43 @@ Key methodological aspects include:
 
 ---
 
+## Dataset
+
+The experiments in this study are based on the **S1S2-Water dataset**, a global reference dataset designed for training and evaluating deep learning models for surface water segmentation from multi-sensor satellite imagery.
+
+- **Dataset download:** https://zenodo.org/records/11278238  
+- **Official repository:** https://github.com/MWieland/s1s2_water  
+
+### Description
+
+S1S2-Water consists of **65 globally distributed samples**, each containing:
+
+- **Sentinel-1 SAR imagery** (VV, VH)
+- **Sentinel-2 optical imagery** (Blue, Green, Red, NIR, SWIR1, SWIR2)
+- **Quality-checked binary water masks**
+- **Valid pixel masks**
+- **Copernicus DEM elevation and slope**
+- **STAC-compliant metadata**
+
+The samples are selected across diverse climate zones, land-cover types, and hydrological conditions to support **robust global surface water modeling**.
+
+Each sample corresponds to a **100 × 100 km Sentinel-2 tile**, stored as Cloud Optimized GeoTIFFs in a common UTM projection.
+
+### Citation
+
+If you use the dataset, please cite:
+
+```bibtex
+@article{wieland2023s1s2water,
+  title   = {S1S2-Water: A global dataset for semantic segmentation of water bodies from Sentinel-1 and Sentinel-2 satellite images},
+  author  = {Wieland, M. and Fichtner, F. and Martinis, S. and Groth, S. and Krullikowski, C. and Plank, S. and Motagh, M.},
+  journal = {IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  year    = {2023},
+  doi     = {10.1109/JSTARS.2023.3333969}
+}
+```
+
+
 ## Reproducibility and Scope
 
 The repository is intended to support transparency, reproducibility, and reuse of the proposed methodology.
@@ -44,5 +81,6 @@ All experiments reported in the paper can be reproduced using the provided code 
 ## Contact
 
 For questions regarding the code or methodology, please open an issue or contact the authors.
+
 
 
