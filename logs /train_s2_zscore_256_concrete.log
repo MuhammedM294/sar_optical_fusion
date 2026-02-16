@@ -1,0 +1,228 @@
+2025-10-01T13:08:13+0200 - train_s2_zscore_256_concrete - INFO - Start Training ... 
+2025-10-01T13:11:58+0200 - train_s2_zscore_256_concrete - INFO - Start Training ... 
+2025-10-01T13:54:37+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 1 | Loss: 79.8252 | Accuracy: 95.7 | Precision: 81.38 | Recall: 85.17 | F1: 83.23 | IoU: 71.38 
+2025-10-01T13:59:15+0200 - train_s2_zscore_256_concrete - INFO - Start Training ... 
+2025-10-01T14:37:55+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 1 | Loss: 79.8478 | Accuracy: 95.21 | Precision: 78.88 | Recall: 84.15 | F1: 81.43 | IoU: 68.56 
+2025-10-01T14:46:46+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 1 | Loss: 42.8024 | Accuracy: 94.92 | Precision: 97.49 | Recall: 58.43 | F1: 73.07 | IoU: 57.19 
+2025-10-01T14:46:47+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/concrte_s2_zscore_256_slope_UNet.pth 
+2025-10-01T15:30:49+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 2 | Loss: 24.2390 | Accuracy: 97.67 | Precision: 91.82 | Recall: 89.37 | F1: 90.58 | IoU: 81.43 
+2025-10-01T15:39:01+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 2 | Loss: 11.8591 | Accuracy: 98.38 | Precision: 98.04 | Recall: 88.08 | F1: 92.79 | IoU: 85.63 
+2025-10-01T15:39:01+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/concrte_s2_zscore_256_slope_UNet.pth 
+2025-10-01T16:17:10+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 3 | Loss: 6.6275 | Accuracy: 98.38 | Precision: 94.94 | Recall: 91.98 | F1: 93.44 | IoU: 86.02 
+2025-10-01T16:24:39+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 3 | Loss: 3.2632 | Accuracy: 97.16 | Precision: 96.82 | Recall: 78.55 | F1: 86.73 | IoU: 76.44 
+2025-10-01T16:24:39+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/concrte_s2_zscore_256_slope_UNet.pth 
+2025-10-01T17:07:36+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 4 | Loss: 1.7978 | Accuracy: 98.79 | Precision: 96.24 | Recall: 93.98 | F1: 95.1 | IoU: 88.88 
+2025-10-01T17:16:35+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 4 | Loss: 1.0702 | Accuracy: 96.27 | Precision: 96.68 | Recall: 70.85 | F1: 81.78 | IoU: 69.88 
+2025-10-01T17:16:35+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/concrte_s2_zscore_256_slope_UNet.pth 
+2025-10-01T18:07:57+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 5 | Loss: 0.5227 | Accuracy: 99.06 | Precision: 97.27 | Recall: 95.15 | F1: 96.2 | IoU: 91.44 
+2025-10-01T18:16:55+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 5 | Loss: 0.4848 | Accuracy: 96.37 | Precision: 97.99 | Recall: 70.71 | F1: 82.14 | IoU: 70.51 
+2025-10-01T18:16:55+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/concrte_s2_zscore_256_slope_UNet.pth 
+2025-10-01T19:08:09+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 6 | Loss: 0.1911 | Accuracy: 99.23 | Precision: 97.86 | Recall: 95.91 | F1: 96.87 | IoU: 92.64 
+2025-10-01T19:17:03+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 6 | Loss: 0.2439 | Accuracy: 97.48 | Precision: 95.38 | Recall: 82.63 | F1: 88.55 | IoU: 79.42 
+2025-10-01T19:17:04+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/concrte_s2_zscore_256_slope_UNet.pth 
+2025-10-01T20:08:05+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 7 | Loss: 0.1036 | Accuracy: 99.31 | Precision: 98.1 | Recall: 96.37 | F1: 97.22 | IoU: 93.2 
+2025-10-01T20:16:56+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 7 | Loss: 0.1475 | Accuracy: 98.51 | Precision: 94.8 | Recall: 92.46 | F1: 93.62 | IoU: 87.09 
+2025-10-01T20:16:56+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/concrte_s2_zscore_256_slope_UNet.pth 
+2025-10-01T21:07:45+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 8 | Loss: 0.0789 | Accuracy: 99.35 | Precision: 98.2 | Recall: 96.58 | F1: 97.38 | IoU: 93.58 
+2025-10-01T21:16:35+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 8 | Loss: 0.1159 | Accuracy: 98.99 | Precision: 94.71 | Recall: 96.86 | F1: 95.77 | IoU: 91.06 
+2025-10-01T21:16:35+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/concrte_s2_zscore_256_slope_UNet.pth 
+2025-10-01T22:07:17+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 9 | Loss: 0.0700 | Accuracy: 99.38 | Precision: 98.25 | Recall: 96.74 | F1: 97.49 | IoU: 93.85 
+2025-10-01T22:16:08+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 9 | Loss: 0.0955 | Accuracy: 99.01 | Precision: 93.13 | Recall: 98.91 | F1: 95.94 | IoU: 90.81 
+2025-10-01T22:16:08+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/concrte_s2_zscore_256_slope_UNet.pth 
+2025-10-01T23:06:48+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 10 | Loss: 0.0639 | Accuracy: 99.42 | Precision: 98.35 | Recall: 96.97 | F1: 97.65 | IoU: 94.31 
+2025-10-01T23:15:37+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 10 | Loss: 0.1305 | Accuracy: 98.58 | Precision: 91.89 | Recall: 96.51 | F1: 94.14 | IoU: 87.46 
+2025-10-02T00:06:08+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 11 | Loss: 0.0595 | Accuracy: 99.46 | Precision: 98.46 | Recall: 97.21 | F1: 97.83 | IoU: 94.57 
+2025-10-02T00:14:56+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 11 | Loss: 0.0888 | Accuracy: 99.1 | Precision: 93.95 | Recall: 98.72 | F1: 96.28 | IoU: 91.3 
+2025-10-02T00:14:57+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/concrte_s2_zscore_256_slope_UNet.pth 
+2025-10-02T01:05:24+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 12 | Loss: 0.0621 | Accuracy: 99.46 | Precision: 98.42 | Recall: 97.24 | F1: 97.82 | IoU: 94.32 
+2025-10-02T01:14:12+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 12 | Loss: 0.1560 | Accuracy: 98.15 | Precision: 98.57 | Recall: 85.54 | F1: 91.6 | IoU: 84.06 
+2025-10-02T02:04:31+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 13 | Loss: 0.0590 | Accuracy: 99.46 | Precision: 98.45 | Recall: 97.18 | F1: 97.81 | IoU: 94.66 
+2025-10-02T02:13:16+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 13 | Loss: 0.0894 | Accuracy: 99.03 | Precision: 93.26 | Recall: 98.9 | F1: 96.0 | IoU: 91.12 
+2025-10-02T03:03:37+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 14 | Loss: 0.0579 | Accuracy: 99.48 | Precision: 98.47 | Recall: 97.35 | F1: 97.91 | IoU: 94.71 
+2025-10-02T03:11:51+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 14 | Loss: 0.1342 | Accuracy: 98.31 | Precision: 92.69 | Recall: 93.04 | F1: 92.87 | IoU: 85.92 
+2025-10-02T03:46:19+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 15 | Loss: 0.0563 | Accuracy: 99.48 | Precision: 98.49 | Recall: 97.33 | F1: 97.91 | IoU: 94.92 
+2025-10-02T03:55:05+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 15 | Loss: 0.0925 | Accuracy: 99.11 | Precision: 93.91 | Recall: 98.91 | F1: 96.35 | IoU: 91.97 
+2025-10-02T04:45:12+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 16 | Loss: 0.0546 | Accuracy: 99.48 | Precision: 98.43 | Recall: 97.42 | F1: 97.92 | IoU: 95.02 
+2025-10-02T04:53:56+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 16 | Loss: 0.0763 | Accuracy: 99.19 | Precision: 94.32 | Recall: 99.06 | F1: 96.63 | IoU: 92.32 
+2025-10-02T04:53:56+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/concrte_s2_zscore_256_slope_UNet.pth 
+2025-10-02T05:40:55+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 17 | Loss: 0.0521 | Accuracy: 99.52 | Precision: 98.57 | Recall: 97.58 | F1: 98.07 | IoU: 95.31 
+2025-10-02T05:49:16+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 17 | Loss: 0.2103 | Accuracy: 97.44 | Precision: 97.71 | Recall: 80.2 | F1: 88.09 | IoU: 78.91 
+2025-10-02T06:26:38+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 18 | Loss: 0.0518 | Accuracy: 99.52 | Precision: 98.53 | Recall: 97.62 | F1: 98.07 | IoU: 95.31 
+2025-10-02T06:34:27+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 18 | Loss: 0.1158 | Accuracy: 98.7 | Precision: 90.64 | Recall: 99.22 | F1: 94.74 | IoU: 88.33 
+2025-10-02T07:03:36+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 19 | Loss: 0.0509 | Accuracy: 99.54 | Precision: 98.64 | Recall: 97.64 | F1: 98.14 | IoU: 95.35 
+2025-10-02T07:09:45+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 19 | Loss: 0.0981 | Accuracy: 99.0 | Precision: 93.94 | Recall: 97.84 | F1: 95.85 | IoU: 90.83 
+2025-10-02T07:35:13+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 20 | Loss: 0.0509 | Accuracy: 99.53 | Precision: 98.6 | Recall: 97.65 | F1: 98.12 | IoU: 95.37 
+2025-10-02T07:40:57+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 20 | Loss: 0.1118 | Accuracy: 98.81 | Precision: 92.04 | Recall: 98.43 | F1: 95.13 | IoU: 89.41 
+2025-10-02T08:06:16+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 21 | Loss: 0.0502 | Accuracy: 99.55 | Precision: 98.63 | Recall: 97.73 | F1: 98.18 | IoU: 95.41 
+2025-10-02T08:11:57+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 21 | Loss: 0.0771 | Accuracy: 99.19 | Precision: 94.89 | Recall: 98.43 | F1: 96.63 | IoU: 92.46 
+2025-10-02T08:37:17+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 22 | Loss: 0.0505 | Accuracy: 99.54 | Precision: 98.64 | Recall: 97.65 | F1: 98.14 | IoU: 95.41 
+2025-10-02T08:43:06+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 22 | Loss: 0.1135 | Accuracy: 98.71 | Precision: 91.0 | Recall: 98.85 | F1: 94.76 | IoU: 88.8 
+2025-10-02T09:08:26+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 23 | Loss: 0.0427 | Accuracy: 99.61 | Precision: 98.83 | Recall: 98.04 | F1: 98.44 | IoU: 96.04 
+2025-10-02T09:14:22+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 23 | Loss: 0.0961 | Accuracy: 98.97 | Precision: 92.84 | Recall: 98.86 | F1: 95.76 | IoU: 90.56 
+2025-10-02T09:39:43+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 24 | Loss: 0.0403 | Accuracy: 99.63 | Precision: 98.86 | Recall: 98.15 | F1: 98.5 | IoU: 96.17 
+2025-10-02T09:45:49+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 24 | Loss: 0.1083 | Accuracy: 98.75 | Precision: 92.53 | Recall: 97.3 | F1: 94.85 | IoU: 89.09 
+2025-10-02T10:11:09+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 25 | Loss: 0.0400 | Accuracy: 99.63 | Precision: 98.84 | Recall: 98.15 | F1: 98.5 | IoU: 96.28 
+2025-10-02T10:17:32+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 25 | Loss: 0.1076 | Accuracy: 98.79 | Precision: 91.31 | Recall: 99.19 | F1: 95.08 | IoU: 89.15 
+2025-10-02T10:42:52+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 26 | Loss: 0.0398 | Accuracy: 99.63 | Precision: 98.83 | Recall: 98.19 | F1: 98.51 | IoU: 96.27 
+2025-10-02T10:48:47+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 26 | Loss: 0.0792 | Accuracy: 99.15 | Precision: 95.14 | Recall: 97.83 | F1: 96.46 | IoU: 92.13 
+2025-10-02T11:15:24+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 27 | Loss: 0.0410 | Accuracy: 99.63 | Precision: 98.89 | Recall: 98.15 | F1: 98.51 | IoU: 96.09 
+2025-10-02T11:21:56+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 27 | Loss: 0.0928 | Accuracy: 98.97 | Precision: 93.85 | Recall: 97.66 | F1: 95.72 | IoU: 90.7 
+2025-10-02T11:50:56+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 28 | Loss: 0.0392 | Accuracy: 99.63 | Precision: 98.84 | Recall: 98.19 | F1: 98.52 | IoU: 96.35 
+2025-10-02T11:57:21+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 28 | Loss: 0.0734 | Accuracy: 99.23 | Precision: 95.41 | Recall: 98.21 | F1: 96.79 | IoU: 92.8 
+2025-10-02T11:57:22+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/concrte_s2_zscore_256_slope_UNet.pth 
+2025-10-02T12:28:08+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 29 | Loss: 0.0386 | Accuracy: 99.64 | Precision: 98.88 | Recall: 98.21 | F1: 98.54 | IoU: 96.39 
+2025-10-02T12:35:33+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 29 | Loss: 0.0854 | Accuracy: 99.06 | Precision: 94.22 | Recall: 98.07 | F1: 96.11 | IoU: 91.58 
+2025-10-02T13:12:33+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 30 | Loss: 0.0393 | Accuracy: 99.64 | Precision: 98.89 | Recall: 98.21 | F1: 98.55 | IoU: 96.29 
+2025-10-02T13:19:48+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 30 | Loss: 0.0818 | Accuracy: 99.13 | Precision: 94.13 | Recall: 98.79 | F1: 96.4 | IoU: 91.82 
+2025-10-02T13:56:08+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 31 | Loss: 0.0381 | Accuracy: 99.65 | Precision: 98.93 | Recall: 98.23 | F1: 98.58 | IoU: 96.39 
+2025-10-04T19:09:48+0200 - train_s2_zscore_256_concrete - INFO - Start Training ... 
+2025-10-07T01:08:58+0200 - train_s2_zscore_256_concrete - INFO - Start Training ... 
+2025-10-07T01:34:28+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 1 | Loss: 0.0476 | Accuracy: 99.55 | Precision: 98.67 | Recall: 97.7 | F1: 98.18 | IoU: 95.64 
+2025-10-07T01:40:31+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 1 | Loss: 0.1137 | Accuracy: 98.71 | Precision: 90.75 | Recall: 99.17 | F1: 94.77 | IoU: 88.74 
+2025-10-07T01:40:31+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/concrte_s2_zscore_256_slope_UNet.pth 
+2025-10-07T02:06:00+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 2 | Loss: 0.0482 | Accuracy: 99.55 | Precision: 98.61 | Recall: 97.82 | F1: 98.21 | IoU: 95.56 
+2025-10-07T02:11:42+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 2 | Loss: 0.0729 | Accuracy: 99.26 | Precision: 95.22 | Recall: 98.68 | F1: 96.92 | IoU: 92.88 
+2025-10-07T02:11:43+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/concrte_s2_zscore_256_slope_UNet.pth 
+2025-10-07T02:37:13+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 3 | Loss: 0.0463 | Accuracy: 99.58 | Precision: 98.74 | Recall: 97.86 | F1: 98.3 | IoU: 95.7 
+2025-10-07T02:42:46+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 3 | Loss: 0.0757 | Accuracy: 99.21 | Precision: 94.7 | Recall: 98.84 | F1: 96.73 | IoU: 92.45 
+2025-10-07T03:08:17+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 4 | Loss: 0.0469 | Accuracy: 99.58 | Precision: 98.71 | Recall: 97.89 | F1: 98.3 | IoU: 95.64 
+2025-10-07T03:13:44+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 4 | Loss: 0.0892 | Accuracy: 99.02 | Precision: 92.92 | Recall: 99.25 | F1: 95.98 | IoU: 91.07 
+2025-10-07T03:39:13+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 5 | Loss: 0.0482 | Accuracy: 99.55 | Precision: 98.64 | Recall: 97.72 | F1: 98.18 | IoU: 95.62 
+2025-10-07T03:44:39+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 5 | Loss: 0.2018 | Accuracy: 97.34 | Precision: 97.33 | Recall: 79.68 | F1: 87.62 | IoU: 78.4 
+2025-10-07T04:10:04+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 6 | Loss: 0.0456 | Accuracy: 99.57 | Precision: 98.7 | Recall: 97.88 | F1: 98.29 | IoU: 95.77 
+2025-10-07T04:15:24+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 6 | Loss: 0.0628 | Accuracy: 99.35 | Precision: 95.88 | Recall: 98.74 | F1: 97.29 | IoU: 93.69 
+2025-10-07T04:15:24+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/concrte_s2_zscore_256_slope_UNet.pth 
+2025-10-07T04:40:53+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 7 | Loss: 0.0464 | Accuracy: 99.57 | Precision: 98.69 | Recall: 97.83 | F1: 98.26 | IoU: 95.73 
+2025-10-07T04:46:13+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 7 | Loss: 0.0847 | Accuracy: 99.08 | Precision: 93.49 | Recall: 99.09 | F1: 96.21 | IoU: 91.42 
+2025-10-07T05:11:42+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 8 | Loss: 0.0477 | Accuracy: 99.57 | Precision: 98.7 | Recall: 97.88 | F1: 98.29 | IoU: 95.58 
+2025-10-07T05:17:02+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 8 | Loss: 0.0742 | Accuracy: 99.24 | Precision: 94.89 | Recall: 98.87 | F1: 96.84 | IoU: 92.98 
+2025-10-07T05:42:30+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 9 | Loss: 0.0459 | Accuracy: 99.57 | Precision: 98.69 | Recall: 97.9 | F1: 98.29 | IoU: 95.7 
+2025-10-07T05:47:56+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 9 | Loss: 0.0676 | Accuracy: 99.32 | Precision: 95.42 | Recall: 98.95 | F1: 97.15 | IoU: 93.35 
+2025-10-07T06:13:25+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 10 | Loss: 0.0446 | Accuracy: 99.57 | Precision: 98.74 | Recall: 97.83 | F1: 98.28 | IoU: 95.86 
+2025-10-07T06:18:59+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 10 | Loss: 0.0754 | Accuracy: 99.2 | Precision: 94.37 | Recall: 99.12 | F1: 96.69 | IoU: 92.14 
+2025-10-07T06:44:26+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 11 | Loss: 0.0447 | Accuracy: 99.58 | Precision: 98.72 | Recall: 97.94 | F1: 98.33 | IoU: 95.74 
+2025-10-07T06:50:18+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 11 | Loss: 0.0750 | Accuracy: 99.29 | Precision: 95.34 | Recall: 98.82 | F1: 97.05 | IoU: 93.05 
+2025-10-07T07:15:47+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 12 | Loss: 0.0462 | Accuracy: 99.6 | Precision: 98.82 | Recall: 97.94 | F1: 98.38 | IoU: 95.63 
+2025-10-07T07:21:34+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 12 | Loss: 0.0597 | Accuracy: 99.4 | Precision: 97.21 | Recall: 97.75 | F1: 97.48 | IoU: 94.11 
+2025-10-07T07:21:34+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/concrte_s2_zscore_256_slope_UNet.pth 
+2025-10-07T07:47:03+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 13 | Loss: 0.0429 | Accuracy: 99.6 | Precision: 98.8 | Recall: 97.98 | F1: 98.39 | IoU: 95.97 
+2025-10-07T07:52:48+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 13 | Loss: 0.0620 | Accuracy: 99.34 | Precision: 96.16 | Recall: 98.36 | F1: 97.25 | IoU: 93.67 
+2025-10-07T08:18:17+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 14 | Loss: 0.0434 | Accuracy: 99.59 | Precision: 98.77 | Recall: 97.97 | F1: 98.37 | IoU: 95.91 
+2025-10-07T08:24:14+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 14 | Loss: 0.4912 | Accuracy: 93.87 | Precision: 88.76 | Recall: 55.06 | F1: 67.96 | IoU: 53.05 
+2025-10-07T08:49:42+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 15 | Loss: 0.0422 | Accuracy: 99.6 | Precision: 98.79 | Recall: 97.99 | F1: 98.39 | IoU: 96.07 
+2025-10-07T08:55:31+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 15 | Loss: 0.0809 | Accuracy: 99.09 | Precision: 93.7 | Recall: 98.96 | F1: 96.26 | IoU: 91.77 
+2025-10-07T09:20:58+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 16 | Loss: 0.0435 | Accuracy: 99.59 | Precision: 98.71 | Recall: 98.0 | F1: 98.35 | IoU: 95.97 
+2025-10-07T09:26:59+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 16 | Loss: 0.1113 | Accuracy: 98.59 | Precision: 95.16 | Recall: 92.74 | F1: 93.94 | IoU: 88.03 
+2025-10-07T09:52:26+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 17 | Loss: 0.0422 | Accuracy: 99.6 | Precision: 98.81 | Recall: 98.0 | F1: 98.4 | IoU: 96.1 
+2025-10-07T09:58:16+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 17 | Loss: 0.1363 | Accuracy: 98.21 | Precision: 93.07 | Recall: 91.7 | F1: 92.38 | IoU: 84.86 
+2025-10-07T10:23:43+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 18 | Loss: 0.0430 | Accuracy: 99.59 | Precision: 98.75 | Recall: 97.97 | F1: 98.35 | IoU: 95.98 
+2025-10-07T10:29:45+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 18 | Loss: 0.0872 | Accuracy: 99.16 | Precision: 94.1 | Recall: 99.07 | F1: 96.52 | IoU: 91.96 
+2025-10-07T10:55:07+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 19 | Loss: 0.0379 | Accuracy: 99.64 | Precision: 98.88 | Recall: 98.26 | F1: 98.57 | IoU: 96.34 
+2025-10-07T11:00:38+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 19 | Loss: 0.0986 | Accuracy: 98.93 | Precision: 92.28 | Recall: 99.22 | F1: 95.62 | IoU: 90.22 
+2025-10-07T11:26:25+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 20 | Loss: 0.0362 | Accuracy: 99.66 | Precision: 98.93 | Recall: 98.32 | F1: 98.63 | IoU: 96.56 
+2025-10-07T11:32:00+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 20 | Loss: 0.0864 | Accuracy: 99.06 | Precision: 93.6 | Recall: 98.78 | F1: 96.12 | IoU: 91.38 
+2025-10-07T11:57:26+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 21 | Loss: 0.0355 | Accuracy: 99.67 | Precision: 98.98 | Recall: 98.37 | F1: 98.67 | IoU: 96.62 
+2025-10-07T12:03:03+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 21 | Loss: 0.0888 | Accuracy: 99.0 | Precision: 92.82 | Recall: 99.19 | F1: 95.9 | IoU: 91.05 
+2025-10-07T12:28:32+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 22 | Loss: 0.0382 | Accuracy: 99.66 | Precision: 98.95 | Recall: 98.32 | F1: 98.63 | IoU: 96.52 
+2025-10-07T12:34:06+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 22 | Loss: 0.0965 | Accuracy: 98.9 | Precision: 93.75 | Recall: 97.14 | F1: 95.42 | IoU: 90.31 
+2025-10-07T12:59:34+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 23 | Loss: 0.0359 | Accuracy: 99.66 | Precision: 98.95 | Recall: 98.35 | F1: 98.65 | IoU: 96.56 
+2025-10-07T13:05:03+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 23 | Loss: 0.0985 | Accuracy: 98.91 | Precision: 92.84 | Recall: 98.39 | F1: 95.53 | IoU: 90.22 
+2025-10-07T13:30:31+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 24 | Loss: 0.0368 | Accuracy: 99.66 | Precision: 98.93 | Recall: 98.34 | F1: 98.63 | IoU: 96.46 
+2025-10-07T13:36:01+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 24 | Loss: 0.0939 | Accuracy: 98.95 | Precision: 92.62 | Recall: 99.02 | F1: 95.71 | IoU: 90.57 
+2025-10-07T14:01:29+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 25 | Loss: 0.0337 | Accuracy: 99.68 | Precision: 99.01 | Recall: 98.39 | F1: 98.7 | IoU: 96.79 
+2025-10-07T14:07:07+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 25 | Loss: 0.0760 | Accuracy: 99.18 | Precision: 94.8 | Recall: 98.49 | F1: 96.61 | IoU: 92.29 
+2025-10-07T14:32:35+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 26 | Loss: 0.0345 | Accuracy: 99.67 | Precision: 99.0 | Recall: 98.39 | F1: 98.69 | IoU: 96.67 
+2025-10-07T14:38:30+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 26 | Loss: 0.0898 | Accuracy: 98.96 | Precision: 94.22 | Recall: 97.2 | F1: 95.68 | IoU: 90.79 
+2025-10-07T15:03:59+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 27 | Loss: 0.0363 | Accuracy: 99.67 | Precision: 98.97 | Recall: 98.41 | F1: 98.69 | IoU: 96.45 
+2025-10-07T15:09:41+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 27 | Loss: 0.0886 | Accuracy: 99.0 | Precision: 92.81 | Recall: 99.21 | F1: 95.9 | IoU: 91.0 
+2025-10-07T15:09:41+0200 - train_s2_zscore_256_concrete - INFO - Early stopping triggered. 
+2025-10-07T15:09:41+0200 - train_s2_zscore_256_concrete - INFO - Training complete. 
+2025-10-09T17:56:12+0200 - train_s2_zscore_256_concrete - INFO - Start Training ... 
+2025-10-09T18:15:11+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 1 | Loss: 0.4497 | Accuracy: 93.6 | Precision: 71.45 | Recall: 81.3 | F1: 76.05 | IoU: 62.27 
+2025-10-09T18:21:16+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 1 | Loss: 0.2244 | Accuracy: 97.65 | Precision: 95.14 | Recall: 84.44 | F1: 89.47 | IoU: 80.26 
+2025-10-09T18:21:17+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/s2_zscore_256_slope_UNetConcrete_concrete_v2.pth 
+2025-10-09T18:40:15+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 2 | Loss: 0.2377 | Accuracy: 97.07 | Precision: 89.39 | Recall: 86.86 | F1: 88.1 | IoU: 78.36 
+2025-10-09T18:45:58+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 2 | Loss: 0.2646 | Accuracy: 97.26 | Precision: 99.42 | Recall: 77.28 | F1: 86.96 | IoU: 76.01 
+2025-10-09T19:04:56+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 3 | Loss: 0.1349 | Accuracy: 98.38 | Precision: 95.44 | Recall: 91.44 | F1: 93.39 | IoU: 86.9 
+2025-10-09T19:10:21+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 3 | Loss: 0.1172 | Accuracy: 98.67 | Precision: 96.73 | Recall: 91.83 | F1: 94.21 | IoU: 88.12 
+2025-10-09T19:10:22+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/s2_zscore_256_slope_UNetConcrete_concrete_v2.pth 
+2025-10-09T19:29:19+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 4 | Loss: 0.1091 | Accuracy: 98.65 | Precision: 96.2 | Recall: 92.85 | F1: 94.5 | IoU: 88.88 
+2025-10-09T19:34:49+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 4 | Loss: 0.0940 | Accuracy: 98.84 | Precision: 96.86 | Recall: 93.23 | F1: 95.01 | IoU: 89.72 
+2025-10-09T19:34:49+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/s2_zscore_256_slope_UNetConcrete_concrete_v2.pth 
+2025-10-09T19:53:48+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 5 | Loss: 0.0952 | Accuracy: 98.79 | Precision: 96.61 | Recall: 93.56 | F1: 95.06 | IoU: 90.07 
+2025-10-09T19:59:32+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 5 | Loss: 0.1037 | Accuracy: 98.74 | Precision: 98.62 | Recall: 90.57 | F1: 94.42 | IoU: 88.94 
+2025-10-09T20:18:28+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 6 | Loss: 0.0803 | Accuracy: 98.94 | Precision: 97.03 | Recall: 94.41 | F1: 95.7 | IoU: 91.16 
+2025-10-09T20:24:11+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 6 | Loss: 0.1204 | Accuracy: 98.41 | Precision: 90.47 | Recall: 96.73 | F1: 93.49 | IoU: 87.1 
+2025-10-09T20:43:08+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 7 | Loss: 0.0719 | Accuracy: 99.03 | Precision: 97.26 | Recall: 94.95 | F1: 96.09 | IoU: 91.9 
+2025-10-09T20:48:37+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 7 | Loss: 0.0924 | Accuracy: 98.81 | Precision: 94.71 | Recall: 95.21 | F1: 94.96 | IoU: 89.87 
+2025-10-09T20:48:38+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/s2_zscore_256_slope_UNetConcrete_concrete_v2.pth 
+2025-10-09T21:07:35+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 8 | Loss: 0.0654 | Accuracy: 99.09 | Precision: 97.4 | Recall: 95.26 | F1: 96.32 | IoU: 92.38 
+2025-10-09T21:13:20+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 8 | Loss: 0.0789 | Accuracy: 98.93 | Precision: 96.51 | Recall: 94.33 | F1: 95.41 | IoU: 90.83 
+2025-10-09T21:13:21+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/s2_zscore_256_slope_UNetConcrete_concrete_v2.pth 
+2025-10-09T21:32:17+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 9 | Loss: 0.0632 | Accuracy: 99.12 | Precision: 97.54 | Recall: 95.34 | F1: 96.43 | IoU: 92.55 
+2025-10-09T21:38:06+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 9 | Loss: 0.0641 | Accuracy: 99.09 | Precision: 96.5 | Recall: 95.72 | F1: 96.11 | IoU: 92.02 
+2025-10-09T21:38:07+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/s2_zscore_256_slope_UNetConcrete_concrete_v2.pth 
+2025-10-09T21:57:04+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 10 | Loss: 0.0551 | Accuracy: 99.2 | Precision: 97.81 | Recall: 95.78 | F1: 96.78 | IoU: 93.16 
+2025-10-09T22:02:22+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 10 | Loss: 0.0698 | Accuracy: 99.06 | Precision: 96.04 | Recall: 96.01 | F1: 96.02 | IoU: 91.7 
+2025-10-09T22:21:19+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 11 | Loss: 0.0544 | Accuracy: 99.2 | Precision: 97.74 | Recall: 95.78 | F1: 96.75 | IoU: 93.21 
+2025-10-09T22:26:40+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 11 | Loss: 0.0621 | Accuracy: 99.09 | Precision: 96.53 | Recall: 95.76 | F1: 96.14 | IoU: 92.13 
+2025-10-09T22:26:40+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/s2_zscore_256_slope_UNetConcrete_concrete_v2.pth 
+2025-10-09T22:45:37+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 12 | Loss: 0.0474 | Accuracy: 99.27 | Precision: 98.01 | Recall: 96.1 | F1: 97.05 | IoU: 93.65 
+2025-10-09T22:51:10+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 12 | Loss: 0.3722 | Accuracy: 96.07 | Precision: 98.93 | Recall: 67.47 | F1: 80.23 | IoU: 67.33 
+2025-10-09T23:10:06+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 13 | Loss: 0.0452 | Accuracy: 99.28 | Precision: 97.98 | Recall: 96.19 | F1: 97.08 | IoU: 93.81 
+2025-10-09T23:15:23+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 13 | Loss: 0.1213 | Accuracy: 98.22 | Precision: 88.01 | Recall: 98.36 | F1: 92.9 | IoU: 86.11 
+2025-10-09T23:34:18+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 14 | Loss: 0.0397 | Accuracy: 99.33 | Precision: 98.07 | Recall: 96.57 | F1: 97.32 | IoU: 94.26 
+2025-10-09T23:39:39+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 14 | Loss: 0.1544 | Accuracy: 97.92 | Precision: 96.74 | Recall: 85.25 | F1: 90.63 | IoU: 82.67 
+2025-10-09T23:58:34+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 15 | Loss: 0.0387 | Accuracy: 99.32 | Precision: 98.04 | Recall: 96.51 | F1: 97.27 | IoU: 94.21 
+2025-10-10T00:03:51+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 15 | Loss: 0.0511 | Accuracy: 99.1 | Precision: 95.05 | Recall: 97.46 | F1: 96.24 | IoU: 92.39 
+2025-10-10T00:03:52+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/s2_zscore_256_slope_UNetConcrete_concrete_v2.pth 
+2025-10-10T00:22:46+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 16 | Loss: 0.0328 | Accuracy: 99.38 | Precision: 98.26 | Recall: 96.75 | F1: 97.5 | IoU: 94.77 
+2025-10-10T00:28:10+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 16 | Loss: 0.0791 | Accuracy: 98.75 | Precision: 91.82 | Recall: 98.13 | F1: 94.87 | IoU: 89.5 
+2025-10-10T00:47:05+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 17 | Loss: 0.0332 | Accuracy: 99.36 | Precision: 98.24 | Recall: 96.66 | F1: 97.44 | IoU: 94.67 
+2025-10-10T00:52:39+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 17 | Loss: 0.0740 | Accuracy: 98.76 | Precision: 92.09 | Recall: 97.94 | F1: 94.92 | IoU: 89.87 
+2025-10-10T01:11:34+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 18 | Loss: 0.0319 | Accuracy: 99.38 | Precision: 98.24 | Recall: 96.81 | F1: 97.52 | IoU: 94.77 
+2025-10-10T01:16:45+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 18 | Loss: 0.0927 | Accuracy: 98.67 | Precision: 97.08 | Recall: 91.48 | F1: 94.2 | IoU: 88.68 
+2025-10-10T01:35:39+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 19 | Loss: 0.0309 | Accuracy: 99.38 | Precision: 98.2 | Recall: 96.82 | F1: 97.51 | IoU: 94.8 
+2025-10-10T01:40:58+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 19 | Loss: 0.0508 | Accuracy: 99.12 | Precision: 94.96 | Recall: 97.72 | F1: 96.32 | IoU: 92.39 
+2025-10-10T01:40:59+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/s2_zscore_256_slope_UNetConcrete_concrete_v2.pth 
+2025-10-10T01:59:52+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 20 | Loss: 0.0288 | Accuracy: 99.4 | Precision: 98.28 | Recall: 96.9 | F1: 97.59 | IoU: 94.97 
+2025-10-10T02:05:05+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 20 | Loss: 0.0713 | Accuracy: 98.82 | Precision: 92.37 | Recall: 98.1 | F1: 95.15 | IoU: 90.15 
+2025-10-10T02:23:57+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 21 | Loss: 0.0273 | Accuracy: 99.41 | Precision: 98.26 | Recall: 97.04 | F1: 97.64 | IoU: 95.07 
+2025-10-10T02:29:04+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 21 | Loss: 0.0647 | Accuracy: 98.9 | Precision: 92.63 | Recall: 98.51 | F1: 95.48 | IoU: 90.85 
+2025-10-10T02:47:56+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 22 | Loss: 0.0275 | Accuracy: 99.42 | Precision: 98.26 | Recall: 97.04 | F1: 97.65 | IoU: 95.01 
+2025-10-10T02:53:15+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 22 | Loss: 0.0799 | Accuracy: 98.69 | Precision: 90.95 | Recall: 98.74 | F1: 94.68 | IoU: 89.33 
+2025-10-10T03:12:07+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 23 | Loss: 0.0252 | Accuracy: 99.43 | Precision: 98.36 | Recall: 97.04 | F1: 97.7 | IoU: 95.14 
+2025-10-10T03:17:24+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 23 | Loss: 0.0407 | Accuracy: 99.28 | Precision: 96.62 | Recall: 97.32 | F1: 96.97 | IoU: 93.71 
+2025-10-10T03:17:25+0200 - train_s2_zscore_256_concrete - INFO - Best model saved to /eodc/private/tuwgeo/users/mabdelaa/repos/seg_likelihood/models/s2_zscore_256_slope_UNetConcrete_concrete_v2.pth 
+2025-10-10T03:36:16+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 24 | Loss: 0.0240 | Accuracy: 99.44 | Precision: 98.39 | Recall: 97.15 | F1: 97.77 | IoU: 95.3 
+2025-10-10T03:41:30+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 24 | Loss: 0.0576 | Accuracy: 98.98 | Precision: 93.32 | Recall: 98.39 | F1: 95.79 | IoU: 91.37 
+2025-10-10T04:00:20+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 25 | Loss: 0.0238 | Accuracy: 99.44 | Precision: 98.34 | Recall: 97.19 | F1: 97.76 | IoU: 95.29 
+2025-10-10T04:05:41+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 25 | Loss: 0.0513 | Accuracy: 99.04 | Precision: 93.78 | Recall: 98.4 | F1: 96.03 | IoU: 91.86 
+2025-10-10T04:24:33+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 26 | Loss: 0.0209 | Accuracy: 99.47 | Precision: 98.42 | Recall: 97.32 | F1: 97.87 | IoU: 95.47 
+2025-10-10T04:29:57+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 26 | Loss: 0.0949 | Accuracy: 98.51 | Precision: 96.53 | Recall: 90.67 | F1: 93.51 | IoU: 87.39 
+2025-10-10T04:48:49+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 27 | Loss: 0.0215 | Accuracy: 99.47 | Precision: 98.41 | Recall: 97.32 | F1: 97.86 | IoU: 95.37 
+2025-10-10T04:54:07+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 27 | Loss: 0.0971 | Accuracy: 98.45 | Precision: 92.72 | Recall: 94.26 | F1: 93.48 | IoU: 87.35 
+2025-10-10T05:12:57+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 28 | Loss: 0.0212 | Accuracy: 99.46 | Precision: 98.44 | Recall: 97.26 | F1: 97.85 | IoU: 95.4 
+2025-10-10T05:18:08+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 28 | Loss: 0.0483 | Accuracy: 99.19 | Precision: 95.91 | Recall: 97.27 | F1: 96.58 | IoU: 92.95 
+2025-10-10T05:36:59+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 29 | Loss: 0.0215 | Accuracy: 99.46 | Precision: 98.44 | Recall: 97.26 | F1: 97.85 | IoU: 95.41 
+2025-10-10T05:42:16+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 29 | Loss: 0.0642 | Accuracy: 98.91 | Precision: 92.94 | Recall: 98.22 | F1: 95.51 | IoU: 90.94 
+2025-10-10T06:01:07+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 30 | Loss: 0.0148 | Accuracy: 99.52 | Precision: 98.58 | Recall: 97.59 | F1: 98.08 | IoU: 95.9 
+2025-10-10T06:06:36+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 30 | Loss: 0.0604 | Accuracy: 98.91 | Precision: 92.71 | Recall: 98.53 | F1: 95.53 | IoU: 90.84 
+2025-10-10T06:25:27+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 31 | Loss: 0.0119 | Accuracy: 99.55 | Precision: 98.67 | Recall: 97.7 | F1: 98.18 | IoU: 96.14 
+2025-10-10T06:30:52+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 31 | Loss: 0.0603 | Accuracy: 98.89 | Precision: 92.46 | Recall: 98.68 | F1: 95.47 | IoU: 90.75 
+2025-10-10T06:49:41+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 32 | Loss: 0.0117 | Accuracy: 99.55 | Precision: 98.65 | Recall: 97.76 | F1: 98.21 | IoU: 96.06 
+2025-10-10T06:54:43+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 32 | Loss: 0.0458 | Accuracy: 99.16 | Precision: 95.25 | Recall: 97.72 | F1: 96.47 | IoU: 92.6 
+2025-10-10T07:13:31+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 33 | Loss: 0.0094 | Accuracy: 99.57 | Precision: 98.72 | Recall: 97.83 | F1: 98.27 | IoU: 96.29 
+2025-10-10T07:18:46+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 33 | Loss: 0.0482 | Accuracy: 99.05 | Precision: 93.88 | Recall: 98.36 | F1: 96.07 | IoU: 91.87 
+2025-10-10T07:37:36+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 34 | Loss: 0.0089 | Accuracy: 99.57 | Precision: 98.74 | Recall: 97.85 | F1: 98.29 | IoU: 96.28 
+2025-10-10T07:43:17+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 34 | Loss: 0.0541 | Accuracy: 99.01 | Precision: 93.65 | Recall: 98.3 | F1: 95.92 | IoU: 91.65 
+2025-10-10T08:02:06+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 35 | Loss: 0.0097 | Accuracy: 99.56 | Precision: 98.69 | Recall: 97.81 | F1: 98.25 | IoU: 96.19 
+2025-10-10T08:07:56+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 35 | Loss: 0.0565 | Accuracy: 98.96 | Precision: 93.27 | Recall: 98.31 | F1: 95.73 | IoU: 91.37 
+2025-10-10T08:26:47+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 36 | Loss: 0.0091 | Accuracy: 99.57 | Precision: 98.71 | Recall: 97.84 | F1: 98.27 | IoU: 96.26 
+2025-10-10T08:32:19+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 36 | Loss: 0.0549 | Accuracy: 98.97 | Precision: 93.36 | Recall: 98.27 | F1: 95.75 | IoU: 91.43 
+2025-10-10T08:51:10+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 37 | Loss: 0.0074 | Accuracy: 99.58 | Precision: 98.78 | Recall: 97.89 | F1: 98.33 | IoU: 96.37 
+2025-10-10T08:56:21+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 37 | Loss: 0.0512 | Accuracy: 99.0 | Precision: 93.45 | Recall: 98.43 | F1: 95.88 | IoU: 91.68 
+2025-10-10T09:15:09+0200 - train_s2_zscore_256_concrete - INFO - t-Epoch 38 | Loss: 0.0090 | Accuracy: 99.57 | Precision: 98.69 | Recall: 97.85 | F1: 98.27 | IoU: 96.24 
+2025-10-10T09:20:35+0200 - train_s2_zscore_256_concrete - INFO - v-Epoch 38 | Loss: 0.0570 | Accuracy: 98.93 | Precision: 92.86 | Recall: 98.55 | F1: 95.62 | IoU: 90.93 
+2025-10-10T09:20:35+0200 - train_s2_zscore_256_concrete - INFO - Early stopping triggered. 
+2025-10-10T09:20:35+0200 - train_s2_zscore_256_concrete - INFO - Training complete. 
