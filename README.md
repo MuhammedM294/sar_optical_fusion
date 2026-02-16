@@ -14,7 +14,7 @@ This repository is currently under active development.
 
 ## Scientific Overview
 
-The proposed framework addresses the limitations of single-sensor surface water monitoring by by fusing independent uncertainty-aware deep learning models trained on multi-mission satellite data.
+The proposed framework addresses the limitations of single-sensor surface water monitoring by fusing independent uncertainty-aware deep learning models trained on multi-mission satellite data.
 
 Key methodological aspects include:
 
@@ -69,12 +69,12 @@ The normalization statistics were computed over the **training set** separately 
 The resulting mean and standard deviation arrays are provided in:
 
 
-    ├── data/
-    │   └── stats/
-    │       ├── s1_mean.npy
-    │       ├── s1_std.npy
-    │       ├── s2_mean.npy
-    │       └── s2_std.npy
+      data/
+      └── stats/
+      ├── s1_mean.npy
+      ├── s1_std.npy
+      ├── s2_mean.npy
+      └── s2_std.npy
 These files are automatically loaded during training and inference.
 
 ### Citation
@@ -107,9 +107,23 @@ All experiments reported in the paper can be reproduced using the provided code 
 
 ---
 
+## Citation
+
+If you use this repository, please cite the paper:
+
+```bibtex
+@article{festa2026sar_optical_water,
+  title   = {SAR and optical imagery for dynamic global surface water monitoring: addressing sensor-specific uncertainty for data fusion},
+  author  = {Festa, Davide and Hassaan, Muhammed and Wagner, Wolfgang},
+  journal = {Under review},
+  year    = {2026}
+}
+```
+
 ## Contact
 
 For questions regarding the code or methodology, please open an issue or contact the authors.
+
 
 
 
