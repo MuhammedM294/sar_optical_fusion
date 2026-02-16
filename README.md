@@ -48,6 +48,35 @@ The samples are selected across diverse climate zones, land-cover types, and hyd
 
 Each sample corresponds to a **100 × 100 km Sentinel-2 tile**, stored as Cloud Optimized GeoTIFFs in a common UTM projection.
 
+### Data Preparation
+
+All Sentinel-1 and Sentinel-2 images were divided into **256 × 256 pixel patches** prior to model training and inference.  
+Patches were extracted from the original scenes following the dataset tiling scheme, ensuring consistent spatial resolution and alignment between sensors.
+
+Tiles containing invalid or missing data were excluded based on the provided valid-pixel masks.
+
+### Normalization
+
+Input data were normalized using **z-score normalization**:
+
+   
+
+The normalization statistics were computed over the **training set** separately for:
+
+- Sentinel-1 bands (VV, VH)
+- Sentinel-2 bands (Blue, Green, Red, NIR, SWIR1, SWIR2)
+
+The resulting mean and standard deviation arrays are provided in:
+
+
+    ├── data/
+    │   └── stats/
+    │       ├── s1_mean.npy
+    │       ├── s1_std.npy
+    │       ├── s2_mean.npy
+    │       └── s2_std.npy
+These files are automatically loaded during training and inference.
+
 ### Citation
 
 If you use the dataset, please cite:
@@ -81,6 +110,7 @@ All experiments reported in the paper can be reproduced using the provided code 
 ## Contact
 
 For questions regarding the code or methodology, please open an issue or contact the authors.
+
 
 
 
