@@ -1,0 +1,45 @@
+2025-10-07T16:07:39+0200 - test - INFO - Model s1_zscore_256_slope_UNet_concrete.pth ... 
+2025-10-07T16:14:56+0200 - test - INFO - Loss: 0.2361 | Accuracy: 98.89 | Precision: 97.48 | Recall: 94.92 | F1: 96.18 | IoU: 75.98 
+2025-10-07T16:14:56+0200 - test - INFO - 
+ 
+2025-10-07T16:17:48+0200 - test - INFO - Model s1_zscore_256_slope_UNet_concrete.pth ... 
+2025-10-07T16:25:00+0200 - test - INFO - Loss: 0.2294 | Accuracy: 98.9 | Precision: 97.35 | Recall: 95.12 | F1: 96.22 | IoU: 76.45 
+2025-10-07T16:25:00+0200 - test - INFO - 
+ 
+2025-10-07T16:26:51+0200 - test - INFO - Model s2_zscore_256_slope_UNet_concrete.pth ... 
+2025-10-07T16:32:18+0200 - test - INFO - Loss: 0.0836 | Accuracy: 99.6 | Precision: 99.48 | Recall: 98.02 | F1: 98.74 | IoU: 89.26 
+2025-10-07T16:32:18+0200 - test - INFO - 
+ 
+2025-10-07T16:33:21+0200 - test - INFO - Model s2_zscore_256_slope_UNet_concrete.pth ... 
+2025-10-07T16:38:44+0200 - test - INFO - Loss: 0.0910 | Accuracy: 99.44 | Precision: 99.77 | Recall: 96.72 | F1: 98.22 | IoU: 89.3 
+2025-10-07T16:38:45+0200 - test - INFO - 
+ 
+2025-10-08T12:41:46+0200 - test - INFO - Model s1_zscore_256_slope_UNetConcrete_concrete_v2.pth ... 
+2025-10-08T12:48:59+0200 - test - INFO - Loss: 85.7549 | Accuracy: 98.68 | Precision: 97.38 | Recall: 93.53 | F1: 95.42 | IoU: 73.63 
+2025-10-08T12:48:59+0200 - test - INFO - 
+ 
+2025-10-08T16:28:42+0200 - test - INFO - Model s1_zscore_256_slope_UNetConcrete_concrete_v2.pth ... 
+2025-10-08T16:35:56+0200 - test - INFO - Loss: 82.8850 | Accuracy: 98.7 | Precision: 96.12 | Recall: 94.96 | F1: 95.54 | IoU: 74.46 
+2025-10-08T16:35:56+0200 - test - INFO - 
+ 
+2025-10-08T21:45:19+0200 - test - INFO - Model s1_zscore_256_slope_UNetConcrete_concrete_v2_iou90.pth ... 
+2025-10-08T21:48:45+0200 - test - INFO - Loss: 82.6065 | Accuracy: 98.75 | Precision: 97.16 | Recall: 94.25 | F1: 95.68 | IoU: 74.36 
+2025-10-08T21:48:45+0200 - test - INFO - 
+ 
+2025-10-09T12:25:52+0200 - test - INFO - Model s1_zscore_256_slope_UNetConcrete_concrete_v2.pth ... 
+2025-10-09T12:33:11+0200 - test - INFO - Loss: 84.0159 | Accuracy: 98.83 | Precision: 97.94 | Recall: 93.99 | F1: 95.93 | IoU: 75.36 
+2025-10-09T12:33:11+0200 - test - INFO - 
+ 
+2025-10-10T18:27:22+0200 - test - INFO - Model s1_zscore_256_slope_UNetConcrete_concrete_v2.pth ... 
+2025-10-10T18:30:49+0200 - test - INFO - Loss: 84.8178 | Accuracy: 98.9 | Precision: 97.9 | Recall: 94.53 | F1: 96.18 | IoU: 75.55 
+2025-10-10T18:30:49+0200 - test - INFO - 
+ 
+2025-10-10T18:31:56+0200 - test - INFO - Model s2_zscore_256_slope_UNetConcrete_concrete_v2.pth ... 
+2025-10-10T18:34:40+0200 - test - INFO - Loss: 109.2302 | Accuracy: 99.14 | Precision: 99.79 | Recall: 94.84 | F1: 97.25 | IoU: 87.94 
+2025-10-10T18:34:40+0200 - test - INFO - 
+ 
+2025-10-10T19:10:57+0200 - test - INFO - Model s2_zscore_256_slope_UNet_concrete.pth ... 
+2025-10-10T19:12:57+0200 - test - INFO - Model s2_zscore_256_slope_UNet_concrete.pth ... 
+2025-10-10T19:15:23+0200 - test - INFO - Loss: 0.0910 | Accuracy: 99.44 | Precision: 99.77 | Recall: 96.72 | F1: 98.22 | IoU: 89.3 
+2025-10-10T19:15:23+0200 - test - INFO - 
+ 
