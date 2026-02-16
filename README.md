@@ -31,7 +31,8 @@ Key methodological aspects include:
 The experiments in this study are based on the **S1S2-Water dataset**, a global reference dataset designed for training and evaluating deep learning models for surface water segmentation from multi-sensor satellite imagery.
 
 - **Dataset download:** https://zenodo.org/records/11278238  
-- **Official repository:** https://github.com/MWieland/s1s2_water  
+- **Official repository:** https://github.com/MWieland/s1s2_water
+- **Paper:** https://ieeexplore.ieee.org/document/10321672
 
 ### Description
 
@@ -77,20 +78,6 @@ The resulting mean and standard deviation arrays are provided in:
       └── s2_std.npy
 These files are automatically loaded during training and inference.
 
-### Citation
-
-If you use the dataset, please cite:
-
-```bibtex
-@article{wieland2023s1s2water,
-  title   = {S1S2-Water: A global dataset for semantic segmentation of water bodies from Sentinel-1 and Sentinel-2 satellite images},
-  author  = {Wieland, M. and Fichtner, F. and Martinis, S. and Groth, S. and Krullikowski, C. and Plank, S. and Motagh, M.},
-  journal = {IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
-  year    = {2023},
-  doi     = {10.1109/JSTARS.2023.3333969}
-}
-```
-
 
 ## Reproducibility and Scope
 
@@ -123,6 +110,7 @@ If you use this repository, please cite the paper:
 ## Contact
 
 For questions regarding the code or methodology, please open an issue or contact the authors.
+
 
 
 
