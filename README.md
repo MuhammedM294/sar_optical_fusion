@@ -1,107 +1,167 @@
-# SAR and Optical Imagery for Dynamic Global Surface Water Monitoring  
+# SAR and Optical Imagery for Dynamic Global Surface Water Monitoring
 
 This repository contains the source code for the paper:
 
 > **SAR and optical imagery for dynamic global surface water monitoring: addressing sensor-specific uncertainty for data fusion**  
 > **Authors:** Davide Festa, Muhammed Hassaan, Wolfgang Wagner  
-> *Manuscript under review* 
+> *Manuscript under review*
 
 ![](figures/graph_abstract.jpg)
-## Repository Status: Work in Progress
-This repository is currently under active development.
+
+---
+
+## Table of Contents
+- [Repository Status](#repository-status)
+- [Scientific Overview](#scientific-overview)
+- [Dataset](#dataset)
+  - [Description](#description)
+  - [Data Preparation](#data-preparation)
+  - [Normalization](#normalization)
+- [Model Setup](#model-setup)
+  - [Training Configuration](#training-configuration)
+- [Pretrained Models](#pretrained-models)
+- [Reproducibility and Scope](#reproducibility-and-scope)
+- [Planned Improvements](#planned-improvements)
+- [Citation](#citation)
+- [Contact](#contact)
+
+---
+
+## Repository Status
+**Work in progress.**  
+The repository is under active development and will be updated alongside the review process.
 
 ---
 
 ## Scientific Overview
 
-The proposed framework addresses the limitations of single-sensor surface water monitoring by fusing independent uncertainty-aware deep learning models trained on multi-mission satellite data.
+This framework addresses the limitations of single-sensor surface water monitoring by fusing independent uncertainty-aware deep learning models trained on multi-mission satellite data.
 
-Key methodological aspects include:
+Key aspects:
 
-- Independent U-Net models trained on **Sentinel-1 SAR** and **Sentinel-2 optical** imagery for surface water mapping.
-- **Bayesian deep learning** with Monte Carlo dropout to explicitly model pixel-wise predictive uncertainty.
-- **Probabilistic data fusion** that mitigates sensor-specific failure modes and improves global surface water retrieval accuracy.
-- **Sensor-specific exclusion masks** that enhance fusion robustness while explicitly conveying sensor-dependent limitations.
-- An evaluation strategy demonstrating that **cloud-free optical-only assessments bias performance estimates**, highlighting the necessity of representative multi-mission operational monitoring.
+- Independent U-Net models trained on **Sentinel-1 SAR** and **Sentinel-2 optical** imagery.
+- **Bayesian deep learning** with Monte Carlo dropout for pixel-wise uncertainty.
+- **Probabilistic data fusion** to mitigate sensor-specific failure modes.
+- **Sensor-specific exclusion masks** to improve fusion robustness.
+- Evaluation showing that **cloud-free optical-only assessments bias performance estimates**, emphasizing the need for multi-mission monitoring.
 
 ---
 
 ## Dataset
 
-The experiments in this study are based on the **S1S2-Water dataset**, a global reference dataset designed for training and evaluating deep learning models for surface water segmentation from multi-sensor satellite imagery.
+Experiments are based on the **S1S2-Water dataset**, a global reference dataset for surface water segmentation.
 
-- **Dataset download:** https://zenodo.org/records/11278238  
-- **Official repository:** https://github.com/MWieland/s1s2_water
-- **Paper:** https://ieeexplore.ieee.org/document/10321672
+- Dataset: https://zenodo.org/records/11278238  
+- Repository: https://github.com/MWieland/s1s2_water  
+- Paper: https://ieeexplore.ieee.org/document/10321672  
 
 ### Description
 
-S1S2-Water consists of **65 globally distributed samples**, each containing:
+The dataset contains **65 globally distributed samples**, each including:
 
-- **Sentinel-1 SAR imagery** (VV, VH)
-- **Sentinel-2 optical imagery** (Blue, Green, Red, NIR, SWIR1, SWIR2)
-- **Quality-checked binary water masks**
-- **Valid pixel masks**
-- **Copernicus DEM elevation and slope**
-- **STAC-compliant metadata**
+- Sentinel-1 SAR (VV, VH)
+- Sentinel-2 optical (Blue, Green, Red, NIR, SWIR1, SWIR2)
+- Binary water masks
+- Valid pixel masks
+- DEM elevation and slope
+- STAC-compliant metadata
 
-The samples are selected across diverse climate zones, land-cover types, and hydrological conditions to support **robust global surface water modeling**.
+Each sample represents a **100 × 100 km Sentinel-2 tile** stored as Cloud Optimized GeoTIFFs.
 
-Each sample corresponds to a **100 × 100 km Sentinel-2 tile**, stored as Cloud Optimized GeoTIFFs in a common UTM projection.
+---
 
 ### Data Preparation
 
-All Sentinel-1 and Sentinel-2 images were divided into **256 × 256 pixel patches** prior to model training and inference.  
-Patches were extracted from the original scenes following the dataset tiling scheme, ensuring consistent spatial resolution and alignment between sensors.
+- All images were divided into **256 × 256 non-overlapping patches**.
+- Patches were aligned across sensors.
+- Tiles with invalid or missing data were excluded using valid-pixel masks.
 
-Tiles containing invalid or missing data were excluded based on the provided valid-pixel masks.
+---
 
 ### Normalization
 
-Input data were normalized using **z-score normalization**:
+Input data were standardized using **z-score normalization**.
 
-   
+Statistics were computed on the **training set only** and applied to validation and test sets.
 
-The normalization statistics were computed over the **training set** separately for:
+Separate statistics were used for:
 
-- Sentinel-1 bands (VV, VH)
-- Sentinel-2 bands (Blue, Green, Red, NIR)
+- Sentinel-1: VV, VH
+- Sentinel-2: Blue, Green, Red, NIR
 
-The resulting mean and standard deviation arrays are provided in:
+Normalization parameters are stored in:
 
-
-      data/
-      └── stats/
+      data/stats/
       ├── s1_mean.npy
       ├── s1_std.npy
       ├── s2_mean.npy
       └── s2_std.npy
+
+
 These files are automatically loaded during training and inference.
+
+---
+
+## Model Setup
+
+Two independent **U-Net models** were trained:
+
+- **Sentinel-1 model:** VV, VH, slope
+- **Sentinel-2 model:** Blue, Green, Red, NIR, slope
+
+Both use a modified encoder–decoder architecture with skip connections and a final **1×1 convolution** producing a binary water mask.
+
+Training included basic augmentations (brightness/contrast, scaling, flipping) and a **weighted BCE + Dice loss** to address class imbalance.
+
+---
+
+### Training Configuration
+
+| Parameter        | Value               |
+|------------------|---------------------|
+| Architecture     | Modified U-Net      |
+| Input patch size | 256 × 256           |
+| Optimizer        | AdamW               |
+| Learning rate    | 1e-3                |
+| Weight decay     | 1e-2                |
+| Batch size       | 64                  |
+| Max epochs       | 100                 |
+| Early stopping   | 15 epochs           |
+| LR reduction     | ×0.1 after 5 epochs |
+| Loss function    | Weighted BCE + Dice |
+| Precision        | Mixed precision     |
+| Framework        | PyTorch             |
+
+---
 
 ## Pretrained Models
 
-The pretrained model checkpoints used in the experiments are not publicly released at this stage, as the manuscript is currently under review.
+Pretrained checkpoints are not publicly released at this stage, as the manuscript is under review.
 
-Researchers interested in reproducing the results or evaluating the models are encouraged to contact the authors directly. Access to the pretrained weights can be provided upon reasonable request.
+Researchers interested in reproducing the results or evaluating the models are encouraged to contact the authors directly. Access to the weights can be provided upon reasonable request.
+
+---
 
 ## Reproducibility and Scope
 
-The repository is intended to support transparency, reproducibility, and reuse of the proposed methodology.
-All experiments reported in the paper can be reproduced using the provided code and configurations, subject to minor variations due to stochastic training and ongoing refactoring.
+This repository aims to support transparency and reproducibility of the proposed methodology.
+
+All experiments described in the paper can be reproduced using the provided code and configurations, subject to minor stochastic variations and ongoing refactoring.
 
 ---
+
 ## Planned Improvements
 
-- Improved documentation and installation instructions  
-- Example notebooks and end-to-end workflows  
-- Code reorganization and cleanup  
-- Release of pretrained model checkpoints  
+- Improved documentation and installation instructions
+- Example notebooks and end-to-end workflows
+- Code reorganization and cleanup
+- Release of pretrained model checkpoints
 
 ---
 
 ## Citation
 
-If you use this repository, please cite the paper:
+If you use this repository, please cite:
 
 ```bibtex
 @article{festa2026sar_optical_water,
@@ -112,14 +172,7 @@ If you use this repository, please cite the paper:
 }
 ```
 
+
 ## Contact
 
-For questions regarding the code or methodology, please open an issue or contact the authors.
-
-
-
-
-
-
-
-
+For questions about the code or methodology, please open an issue or contact the authors.
