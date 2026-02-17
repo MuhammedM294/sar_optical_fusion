@@ -65,7 +65,7 @@ Input data were normalized using **z-score normalization**:
 The normalization statistics were computed over the **training set** separately for:
 
 - Sentinel-1 bands (VV, VH)
-- Sentinel-2 bands (Blue, Green, Red, NIR, SWIR1, SWIR2)
+- Sentinel-2 bands (Blue, Green, Red, NIR)
 
 The resulting mean and standard deviation arrays are provided in:
 
@@ -115,6 +115,7 @@ If you use this repository, please cite the paper:
 ## Contact
 
 For questions regarding the code or methodology, please open an issue or contact the authors.
+
 
 
 
